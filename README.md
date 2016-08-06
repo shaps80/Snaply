@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/cocoapods/v/Snaply.svg?style=flat)](http://cocoapods.org/pods/Snaply)
 [![License](https://img.shields.io/cocoapods/l/Snaply.svg?style=flat)](http://cocoapods.org/pods/Snaply)
-[![Language](https://img.shields.io/badge/language-swift-ff69b4.svg)](http://cocoadocs.org/docsets/Snaply)
+[![Language](https://img.shields.io/badge/language-swift_2.2-ff69b4.svg)](http://cocoadocs.org/docsets/Snaply)
 [![Platform](https://img.shields.io/cocoapods/p/Snaply.svg?style=flat)](http://cocoapods.org/pods/Snaply)
 
 ## Usage
