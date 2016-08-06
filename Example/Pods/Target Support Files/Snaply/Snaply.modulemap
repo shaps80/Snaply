@@ -1,0 +1,6 @@
+framework module Snaply {
+  umbrella header "Snaply-umbrella.h"
+
+  export *
+  module * { export * }
+}

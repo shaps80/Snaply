@@ -1,0 +1,16 @@
+PODS:
+  - Snaply (0.1.0)
+
+DEPENDENCIES:
+  - Snaply (from `../`)
+
+EXTERNAL SOURCES:
+  Snaply:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Snaply: dd6d24f18254fe13b1035237d7b072c6639edcc5
+
+PODFILE CHECKSUM: 231c9a0222beb2f75ad1a46c2103d86249bbdde1
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16895AF0EDAACEB27536C2C555CAF83A /* SnapTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857D950B245B16DA77BF55C14CCB762 /* SnapTypes.swift */; };
+		1EF774363C7F176F992F72880C883ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		38D11B5A95F490F1B171920021F8CF6E /* Pods-Snaply_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 426CE7BB37DE528F9F3193A78B9C31EB /* Pods-Snaply_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596B16638AD0422F1936C30E4DC85CE5 /* Pods-Snaply_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F60975295F77B91E8ED897445CE93C /* Pods-Snaply_Tests-dummy.m */; };
+		B690B00E6129079B87695CDEC7C7C8E5 /* Pods-Snaply_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAA1D80D3BF74F5858F17B4FE336E12 /* Pods-Snaply_Example-dummy.m */; };
+		C824D8F5CF6B537D63D5052E4B729493 /* Snaply-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8998C998890DCE0C801ED976794078A8 /* Snaply-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1ACB84AA6A20B41EAA7C4606C3C7A3 /* Pods-Snaply_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE56A73208BEA0DBDD67FA5552D8E34 /* Pods-Snaply_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DABA2D377D40E4282085F85A0BA23D02 /* Snaply-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC2125D4C9979AAF982A07F0C106BE9 /* Snaply-dummy.m */; };
+		E0EC6996FEA725C201C03B9FF1AA787B /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118918710F384EAF2316584D4030C79 /* Snap.swift */; };
+		E6C150AE60C1423B7FEDEDE44479C146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E8852E86439D52D7F587A4217511A1F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09225FD6E6EB9FE3A0ED6A679158E085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B659F5008185E8BD316A598C7918A7C4;
+			remoteInfo = Snaply;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F60975295F77B91E8ED897445CE93C /* Pods-Snaply_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snaply_Tests-dummy.m"; sourceTree = "<group>"; };
+		0D6FDAF13273035C38894802AB099321 /* Pods-Snaply_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snaply_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1714775CDDA8ABCA13F0B05B845E56FF /* Pods-Snaply_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Snaply_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AC2125D4C9979AAF982A07F0C106BE9 /* Snaply-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Snaply-dummy.m"; sourceTree = "<group>"; };
+		3736C66C3FDE4D4FCEA7054340C44235 /* Pods-Snaply_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snaply_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4118B36BC53B1EF1AAC83FDADDC2C820 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426CE7BB37DE528F9F3193A78B9C31EB /* Pods-Snaply_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snaply_Example-umbrella.h"; sourceTree = "<group>"; };
+		4930A7FBDCA142FB71A8AE65E5095042 /* Pods-Snaply_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snaply_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		62AA335D7D7D72F4C15B8C58B201987B /* Snaply.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Snaply.xcconfig; sourceTree = "<group>"; };
+		6857D950B245B16DA77BF55C14CCB762 /* SnapTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTypes.swift; sourceTree = "<group>"; };
+		6FE56A73208BEA0DBDD67FA5552D8E34 /* Pods-Snaply_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snaply_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7018B158C3F3BFE37F1CB205CC7B2247 /* Snaply.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Snaply.modulemap; sourceTree = "<group>"; };
+		755DE25A7C865CE1AEFBC8C95082DF59 /* Pods-Snaply_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Snaply_Example.modulemap"; sourceTree = "<group>"; };
+		78E5D9C2C1D175AC4D7EC4D3E5639ECD /* Pods-Snaply_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snaply_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D17B866E0824790FB98E238D5AE8350 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8118918710F384EAF2316584D4030C79 /* Snap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		84D122779D63539A736524E0EBDE68A0 /* Snaply.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snaply.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8998C998890DCE0C801ED976794078A8 /* Snaply-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snaply-umbrella.h"; sourceTree = "<group>"; };
+		91279838FCE42F60FE1333460C8278BA /* Pods-Snaply_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snaply_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97AC5A5D52898218E46FAEBE7C3D6378 /* Snaply-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snaply-prefix.pch"; sourceTree = "<group>"; };
+		9AC6912C4A4D9D6980CAECCA684DA1DD /* Pods_Snaply_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snaply_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C758A1A540A09E96D5998B664F8A6BF7 /* Pods-Snaply_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snaply_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C9F08AEA729C7B3D423EE49696DADCBF /* Pods_Snaply_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snaply_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC4CFDA106F10B5CB48BDAAE9D4E6CF /* Pods-Snaply_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snaply_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF69EE3F84D0DB38EED1A13B39743F52 /* Pods-Snaply_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Snaply_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E00DBED4D0281E7847BD3EBC0FBAA633 /* Pods-Snaply_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snaply_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5B32E7604E4D7B6A4D71F8C48C15C19 /* Pods-Snaply_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Snaply_Tests.modulemap"; sourceTree = "<group>"; };
+		E6EF6A7DB517CCA58E17D42C625A067A /* Pods-Snaply_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snaply_Example-resources.sh"; sourceTree = "<group>"; };
+		E959DC99C9EA2C8A294443B15097F2FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9EE3552AABF1D5247A06D0EFAA066C /* Pods-Snaply_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snaply_Tests-resources.sh"; sourceTree = "<group>"; };
+		FDAA1D80D3BF74F5858F17B4FE336E12 /* Pods-Snaply_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snaply_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FE071368788C991A5CF4236602FDC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8852E86439D52D7F587A4217511A1F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F672003ADC500C46EB030A8BA925234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C150AE60C1423B7FEDEDE44479C146 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C163093D39951FB6FBD27B67542BD814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF774363C7F176F992F72880C883ACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390E4E63E8FB1C4734BBF629451C2CC0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2783F22D43795E72BDD82706F0CCE /* Snaply */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3DDA65334B5149FC450A0BD7F6244EF2 /* Pods-Snaply_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4118B36BC53B1EF1AAC83FDADDC2C820 /* Info.plist */,
+				755DE25A7C865CE1AEFBC8C95082DF59 /* Pods-Snaply_Example.modulemap */,
+				CF69EE3F84D0DB38EED1A13B39743F52 /* Pods-Snaply_Example-acknowledgements.markdown */,
+				4930A7FBDCA142FB71A8AE65E5095042 /* Pods-Snaply_Example-acknowledgements.plist */,
+				FDAA1D80D3BF74F5858F17B4FE336E12 /* Pods-Snaply_Example-dummy.m */,
+				91279838FCE42F60FE1333460C8278BA /* Pods-Snaply_Example-frameworks.sh */,
+				E6EF6A7DB517CCA58E17D42C625A067A /* Pods-Snaply_Example-resources.sh */,
+				426CE7BB37DE528F9F3193A78B9C31EB /* Pods-Snaply_Example-umbrella.h */,
+				0D6FDAF13273035C38894802AB099321 /* Pods-Snaply_Example.debug.xcconfig */,
+				3736C66C3FDE4D4FCEA7054340C44235 /* Pods-Snaply_Example.release.xcconfig */,
+			);
+			name = "Pods-Snaply_Example";
+			path = "Target Support Files/Pods-Snaply_Example";
+			sourceTree = "<group>";
+		};
+		50EC8D4E5B12C12432D18F320E00754F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8118918710F384EAF2316584D4030C79 /* Snap.swift */,
+				6857D950B245B16DA77BF55C14CCB762 /* SnapTypes.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5FE2474C37D0BF6FDD168D5E5E83F7A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC6912C4A4D9D6980CAECCA684DA1DD /* Pods_Snaply_Example.framework */,
+				C9F08AEA729C7B3D423EE49696DADCBF /* Pods_Snaply_Tests.framework */,
+				84D122779D63539A736524E0EBDE68A0 /* Snaply.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74ABA715589D4E696B634FE09F8E23F7 /* Pods-Snaply_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E959DC99C9EA2C8A294443B15097F2FE /* Info.plist */,
+				E5B32E7604E4D7B6A4D71F8C48C15C19 /* Pods-Snaply_Tests.modulemap */,
+				1714775CDDA8ABCA13F0B05B845E56FF /* Pods-Snaply_Tests-acknowledgements.markdown */,
+				78E5D9C2C1D175AC4D7EC4D3E5639ECD /* Pods-Snaply_Tests-acknowledgements.plist */,
+				05F60975295F77B91E8ED897445CE93C /* Pods-Snaply_Tests-dummy.m */,
+				CBC4CFDA106F10B5CB48BDAAE9D4E6CF /* Pods-Snaply_Tests-frameworks.sh */,
+				FC9EE3552AABF1D5247A06D0EFAA066C /* Pods-Snaply_Tests-resources.sh */,
+				6FE56A73208BEA0DBDD67FA5552D8E34 /* Pods-Snaply_Tests-umbrella.h */,
+				E00DBED4D0281E7847BD3EBC0FBAA633 /* Pods-Snaply_Tests.debug.xcconfig */,
+				C758A1A540A09E96D5998B664F8A6BF7 /* Pods-Snaply_Tests.release.xcconfig */,
+			);
+			name = "Pods-Snaply_Tests";
+			path = "Target Support Files/Pods-Snaply_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				390E4E63E8FB1C4734BBF629451C2CC0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5FE2474C37D0BF6FDD168D5E5E83F7A4 /* Products */,
+				973951A643E298B9F77BC18DAE0AF43B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		973951A643E298B9F77BC18DAE0AF43B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA65334B5149FC450A0BD7F6244EF2 /* Pods-Snaply_Example */,
+				74ABA715589D4E696B634FE09F8E23F7 /* Pods-Snaply_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A57FDCF416F7879903F508911D55B07A /* Snaply */ = {
+			isa = PBXGroup;
+			children = (
+				50EC8D4E5B12C12432D18F320E00754F /* Classes */,
+			);
+			path = Snaply;
+			sourceTree = "<group>";
+		};
+		A5C2783F22D43795E72BDD82706F0CCE /* Snaply */ = {
+			isa = PBXGroup;
+			children = (
+				A57FDCF416F7879903F508911D55B07A /* Snaply */,
+				E82CFE360D79378D0BB22BBADEDAAA70 /* Support Files */,
+			);
+			name = Snaply;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E82CFE360D79378D0BB22BBADEDAAA70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D17B866E0824790FB98E238D5AE8350 /* Info.plist */,
+				7018B158C3F3BFE37F1CB205CC7B2247 /* Snaply.modulemap */,
+				62AA335D7D7D72F4C15B8C58B201987B /* Snaply.xcconfig */,
+				2AC2125D4C9979AAF982A07F0C106BE9 /* Snaply-dummy.m */,
+				97AC5A5D52898218E46FAEBE7C3D6378 /* Snaply-prefix.pch */,
+				8998C998890DCE0C801ED976794078A8 /* Snaply-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Snaply";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6AF568DC067C93E9913AF43675F72AAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1ACB84AA6A20B41EAA7C4606C3C7A3 /* Pods-Snaply_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C1F9737281093CDD37CF4C16286847 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C824D8F5CF6B537D63D5052E4B729493 /* Snaply-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C45019A940BBFA7B2145008D93F9B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D11B5A95F490F1B171920021F8CF6E /* Pods-Snaply_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79F941CF5C1D747704CD21937FC3A17F /* Pods-Snaply_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E17F1D4A145B522082253FC2EDC53DE /* Build configuration list for PBXNativeTarget "Pods-Snaply_Example" */;
+			buildPhases = (
+				CB37EA4EC6DB5769B47A8F8A25782166 /* Sources */,
+				C163093D39951FB6FBD27B67542BD814 /* Frameworks */,
+				D6C45019A940BBFA7B2145008D93F9B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B618FFF3C4EB01BC1DA9D23F508935C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Snaply_Example";
+			productName = "Pods-Snaply_Example";
+			productReference = 9AC6912C4A4D9D6980CAECCA684DA1DD /* Pods_Snaply_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A41D42606EB4763573A04509F33FDD96 /* Pods-Snaply_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158A74D9BF359D05F3149F0ECFB22152 /* Build configuration list for PBXNativeTarget "Pods-Snaply_Tests" */;
+			buildPhases = (
+				268FFB505ECDD880C0B614BF9C7B080C /* Sources */,
+				5F672003ADC500C46EB030A8BA925234 /* Frameworks */,
+				6AF568DC067C93E9913AF43675F72AAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Snaply_Tests";
+			productName = "Pods-Snaply_Tests";
+			productReference = C9F08AEA729C7B3D423EE49696DADCBF /* Pods_Snaply_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B659F5008185E8BD316A598C7918A7C4 /* Snaply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BF34A7CA08649C42B4206D2B32BC59 /* Build configuration list for PBXNativeTarget "Snaply" */;
+			buildPhases = (
+				95E5060784F51984790340D5F6406B49 /* Sources */,
+				4FE071368788C991A5CF4236602FDC23 /* Frameworks */,
+				99C1F9737281093CDD37CF4C16286847 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snaply;
+			productName = Snaply;
+			productReference = 84D122779D63539A736524E0EBDE68A0 /* Snaply.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5FE2474C37D0BF6FDD168D5E5E83F7A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F941CF5C1D747704CD21937FC3A17F /* Pods-Snaply_Example */,
+				A41D42606EB4763573A04509F33FDD96 /* Pods-Snaply_Tests */,
+				B659F5008185E8BD316A598C7918A7C4 /* Snaply */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268FFB505ECDD880C0B614BF9C7B080C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B16638AD0422F1936C30E4DC85CE5 /* Pods-Snaply_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E5060784F51984790340D5F6406B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EC6996FEA725C201C03B9FF1AA787B /* Snap.swift in Sources */,
+				DABA2D377D40E4282085F85A0BA23D02 /* Snaply-dummy.m in Sources */,
+				16895AF0EDAACEB27536C2C555CAF83A /* SnapTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB37EA4EC6DB5769B47A8F8A25782166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B690B00E6129079B87695CDEC7C7C8E5 /* Pods-Snaply_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B618FFF3C4EB01BC1DA9D23F508935C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Snaply;
+			target = B659F5008185E8BD316A598C7918A7C4 /* Snaply */;
+			targetProxy = 09225FD6E6EB9FE3A0ED6A679158E085 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E8E1E2225970086E955142331E99EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C758A1A540A09E96D5998B664F8A6BF7 /* Pods-Snaply_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snaply_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snaply_Tests/Pods-Snaply_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snaply_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DE685265B180A3146BB3F321980ED22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AA335D7D7D72F4C15B8C58B201987B /* Snaply.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Snaply/Snaply-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Snaply/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Snaply/Snaply.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Snaply;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97C2A26786026C41E5874487B3D3E7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3736C66C3FDE4D4FCEA7054340C44235 /* Pods-Snaply_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snaply_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snaply_Example/Pods-Snaply_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snaply_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6884479D1BE660C0795F1154E624AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AA335D7D7D72F4C15B8C58B201987B /* Snaply.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Snaply/Snaply-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Snaply/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Snaply/Snaply.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Snaply;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D37C24486D0FADAC03B36C7B5ACB8B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00DBED4D0281E7847BD3EBC0FBAA633 /* Pods-Snaply_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snaply_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snaply_Tests/Pods-Snaply_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snaply_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7ECBC6526CF006E116B4E47E7CAF183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6FDAF13273035C38894802AB099321 /* Pods-Snaply_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snaply_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snaply_Example/Pods-Snaply_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Snaply_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00BF34A7CA08649C42B4206D2B32BC59 /* Build configuration list for PBXNativeTarget "Snaply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6884479D1BE660C0795F1154E624AF9 /* Debug */,
+				4DE685265B180A3146BB3F321980ED22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158A74D9BF359D05F3149F0ECFB22152 /* Build configuration list for PBXNativeTarget "Pods-Snaply_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37C24486D0FADAC03B36C7B5ACB8B71 /* Debug */,
+				0E8E1E2225970086E955142331E99EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E17F1D4A145B522082253FC2EDC53DE /* Build configuration list for PBXNativeTarget "Pods-Snaply_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7ECBC6526CF006E116B4E47E7CAF183 /* Debug */,
+				97C2A26786026C41E5874487B3D3E7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
