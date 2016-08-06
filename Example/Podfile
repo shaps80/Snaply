@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'Snaply_Example' do
   pod 'Snaply', :path => '../'
-
-  target 'Snaply_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
