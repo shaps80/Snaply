@@ -18,13 +18,13 @@ import UIKit
 public enum SnapDirection {
   
   /// If the scrollView is a collectionView and is using a flow layout, the direction property will be used to determine direction. If the scrollView is a tableView, then this will always return Vertical. In all other cases the direction will be determined by comparing the scrollView's contentSize and looking for the larger value. When no direction can be determined, this defaults to Vertical
-  case Automatic
+  case automatic
   
   /// Snapping is only applied in the vertical direction
-  case Vertical
+  case vertical
   
   /// Snapping is only applied in the horizontal direction
-  case Horizontal
+  case horizontal
   
 }
 
@@ -39,13 +39,13 @@ public enum SnapDirection {
 public enum SnapEdge {
   
   /// The scrollView will snap to the min edge (left for horizontal, top for vertical)
-  case Min
+  case min
   
   /// The scrollView will snap to the center/middle of the scrollView
-  case Mid
+  case mid
   
   /// The scrollView will snap to the max edge (right for horizontal, bottom for vertical)
-  case Max
+  case max
   
 }
 

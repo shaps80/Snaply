@@ -44,13 +44,13 @@ final class SnapViewController: UIViewController, UICollectionViewDataSource, UI
     centerLayout.itemSize = CGSize(width: size.height * 1.5, height: size.height)
     rightLayout.itemSize = CGSize(width: size.height * 0.8, height: size.height)
     
-    left = Snap(scrollView: leftAlignedCollectionView, edge: .Min, direction: .Horizontal, delegate: self)
-    center = Snap(scrollView: centerAlignedCollectionView, edge: .Mid, direction: .Horizontal, delegate: self)
-    right = Snap(scrollView: rightAlignedCollectionView, edge: .Max, direction: .Horizontal, delegate: self)
+    left = Snap(scrollView: leftAlignedCollectionView, edge: .min, direction: .horizontal, delegate: self)
+    center = Snap(scrollView: centerAlignedCollectionView, edge: .mid, direction: .horizontal, delegate: self)
+    right = Snap(scrollView: rightAlignedCollectionView, edge: .max, direction: .horizontal, delegate: self)
     
-    left.setSnapLocations(locations(left, layout: leftLayout), realignImmediately: true)
-    center.setSnapLocations(locations(center, layout: centerLayout), realignImmediately: true)
-    right.setSnapLocations(locations(right, layout: rightLayout), realignImmediately: true)
+    left.setSnapLocations(locations(snap: left, layout: leftLayout), realignImmediately: true)
+    center.setSnapLocations(locations(snap: center, layout: centerLayout), realignImmediately: true)
+    right.setSnapLocations(locations(snap: right, layout: rightLayout), realignImmediately: true)
   }
   
   private func locations(snap: Snap, layout: UICollectionViewFlowLayout) -> [CGFloat] {
@@ -61,16 +61,16 @@ final class SnapViewController: UIViewController, UICollectionViewDataSource, UI
       let itemSize = layout.itemSize.width
       sizes.append(itemSize)
       
-      switch snap.snapEdge {
-      case .Min:
+      switch snap.snappingEdge() {
+      case .min:
         let offset = layout.headerReferenceSize.width + layout.sectionInset.left
         let size = sizes.reduce(offset, combine: { $0 + $1 + layout.minimumInteritemSpacing })
         locations.append(size - offset)
-      case .Mid:
+      case .mid:
         let offset = (layout.headerReferenceSize.width + layout.sectionInset.left) / 2
         let size = sizes.reduce(offset, combine: { $0 + $1 + layout.minimumInteritemSpacing })
         locations.append(size + offset - itemSize / 2 - layout.minimumInteritemSpacing)
-      case .Max:
+      case .max:
         let offset = layout.footerReferenceSize.width + layout.sectionInset.right
         let size = sizes.reduce(offset, combine: { $0 + $1 + layout.minimumInteritemSpacing })
         locations.append(size - offset + layout.minimumInteritemSpacing)
@@ -80,12 +80,12 @@ final class SnapViewController: UIViewController, UICollectionViewDataSource, UI
     return locations
   }
   
-  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return 20
   }
   
-  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    return collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath)
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    return collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
   }
   
 }
