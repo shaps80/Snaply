@@ -113,7 +113,7 @@ public final class Snap: NSObject, UIScrollViewDelegate {
       offsetValue += bounds
     }
     
-    if let location = locations.last where offsetValue > locations.last {
+    if let location = locations.last, offsetValue > (locations.last ?? 0) {
       return direction == .horizontal ? CGPoint(x: location, y: 0) : CGPoint(x: 0, y: location)
     }
     
@@ -170,7 +170,7 @@ public final class Snap: NSObject, UIScrollViewDelegate {
     }
     
     if let collectionView = scrollView as? UICollectionView,
-      layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+      let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
       return layout.scrollDirection == .vertical ? .vertical : .horizontal
     }
     
@@ -242,7 +242,7 @@ public final class Snap: NSObject, UIScrollViewDelegate {
     return false
   }
   
-  public override func forwardingTarget(for aSelector: Selector) -> AnyObject? {
+  public func forwardingTarget(for aSelector: Selector) -> AnyObject? {
     if super.responds(to: aSelector) {
       return self
     }

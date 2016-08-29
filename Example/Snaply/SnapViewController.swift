@@ -37,6 +37,10 @@ final class SnapViewController: UIViewController, UICollectionViewDataSource, UI
     leftAlignedCollectionView.decelerationRate = UIScrollViewDecelerationRateFast
     centerAlignedCollectionView.decelerationRate = UIScrollViewDecelerationRateFast
     rightAlignedCollectionView.decelerationRate = UIScrollViewDecelerationRateFast
+  }
+  
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
     
     let size = leftAlignedCollectionView.bounds.size
     
@@ -64,15 +68,15 @@ final class SnapViewController: UIViewController, UICollectionViewDataSource, UI
       switch snap.snappingEdge() {
       case .min:
         let offset = layout.headerReferenceSize.width + layout.sectionInset.left
-        let size = sizes.reduce(offset, combine: { $0 + $1 + layout.minimumInteritemSpacing })
+        let size = sizes.reduce(offset) { $0 + $1 + layout.minimumInteritemSpacing }
         locations.append(size - offset)
       case .mid:
         let offset = (layout.headerReferenceSize.width + layout.sectionInset.left) / 2
-        let size = sizes.reduce(offset, combine: { $0 + $1 + layout.minimumInteritemSpacing })
+        let size = sizes.reduce(offset) { $0 + $1 + layout.minimumInteritemSpacing }
         locations.append(size + offset - itemSize / 2 - layout.minimumInteritemSpacing)
       case .max:
         let offset = layout.footerReferenceSize.width + layout.sectionInset.right
-        let size = sizes.reduce(offset, combine: { $0 + $1 + layout.minimumInteritemSpacing })
+        let size = sizes.reduce(offset) { $0 + $1 + layout.minimumInteritemSpacing }
         locations.append(size - offset + layout.minimumInteritemSpacing)
       }
     }
@@ -85,7 +89,7 @@ final class SnapViewController: UIViewController, UICollectionViewDataSource, UI
   }
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    return collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+    return collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
   }
   
 }
