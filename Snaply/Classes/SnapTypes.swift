@@ -16,16 +16,16 @@ import UIKit
  - Horizontal: Snapping is only applied in the horizontal direction
  */
 public enum SnapDirection {
-  
-  /// If the scrollView is a collectionView and is using a flow layout, the direction property will be used to determine direction. If the scrollView is a tableView, then this will always return Vertical. In all other cases the direction will be determined by comparing the scrollView's contentSize and looking for the larger value. When no direction can be determined, this defaults to Vertical
-  case Automatic
-  
-  /// Snapping is only applied in the vertical direction
-  case Vertical
-  
-  /// Snapping is only applied in the horizontal direction
-  case Horizontal
-  
+    
+    /// If the scrollView is a collectionView and is using a flow layout, the direction property will be used to determine direction. If the scrollView is a tableView, then this will always return Vertical. In all other cases the direction will be determined by comparing the scrollView's contentSize and looking for the larger value. When no direction can be determined, this defaults to Vertical
+    case automatic
+    
+    /// Snapping is only applied in the vertical direction
+    case vertical
+    
+    /// Snapping is only applied in the horizontal direction
+    case horizontal
+    
 }
 
 
@@ -37,15 +37,14 @@ public enum SnapDirection {
  - Max: The scrollView will snap to the max edge (right for horizontal, bottom for vertical)
  */
 public enum SnapEdge {
-  
-  /// The scrollView will snap to the min edge (left for horizontal, top for vertical)
-  case Min
-  
-  /// The scrollView will snap to the center/middle of the scrollView
-  case Mid
-  
-  /// The scrollView will snap to the max edge (right for horizontal, bottom for vertical)
-  case Max
-  
+    
+    /// The scrollView will snap to the min edge (left for horizontal, top for vertical)
+    case min
+    
+    /// The scrollView will snap to the center/middle of the scrollView
+    case mid
+    
+    /// The scrollView will snap to the max edge (right for horizontal, bottom for vertical)
+    case max
+    
 }
-
